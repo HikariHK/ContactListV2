@@ -78,7 +78,7 @@ main{
     display: flex;
     text-align: center;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
     padding-left: 0;
     margin: 0;
     flex-wrap: wrap;
@@ -172,6 +172,7 @@ main{
     font-size: 120%;
     color: #222222;
     padding-bottom: 10px;
+    word-wrap: break-word;
 }
 
 /*  Style for contact-icons div  */
@@ -249,7 +250,7 @@ main{
 
 @media (max-width: 1396.36px) {
     .contacts {
-        margin: 0.9%;
+        margin: 0.8%;
     }
 }
 
